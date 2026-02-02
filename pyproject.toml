@@ -1,10 +1,6 @@
-[build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "blockware"
-version = "0.1.0"
+version = "0.2.0"
 description = "Blockware CLI wallet tool"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -12,13 +8,8 @@ dependencies = [
   "typer>=0.12.0",
   "rich>=13.7.0",
   "cryptography>=42.0.0",
+  "bip-utils>=2.9.0",
 ]
-
 [project.scripts]
-blockware = "blockware.cli:app"
+blockware = "blockware.cli:main"
 
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
