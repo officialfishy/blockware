@@ -1,0 +1,11 @@
+pyproject.toml
+src/blockware/__init__.py
+src/blockware/cli.py
+src/blockware/crypto.py
+src/blockware/wallet.py
+src/blockware.egg-info/PKG-INFO
+src/blockware.egg-info/SOURCES.txt
+src/blockware.egg-info/dependency_links.txt
+src/blockware.egg-info/entry_points.txt
+src/blockware.egg-info/requires.txt
+src/blockware.egg-info/top_level.txt
